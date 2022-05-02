@@ -76,6 +76,11 @@ section {
     position: relative;
 }
 
+.jumbotron-secondary {
+    background-color:black;
+    color:red;
+}
+
 .info-form {
     background-color: #fce138;
     position:absolute;
