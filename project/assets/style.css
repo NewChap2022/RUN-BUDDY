@@ -70,7 +70,7 @@ section {
 
 .jumbotron {
     height: 600px;
-    background-image: url(./hero-bg.jpg);
+    background-image: url(./images/hero-bg.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -104,7 +104,7 @@ section {
     background-color: #024e76;
     color: #fce138;
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 16pt;
 }
 
 .jumbotron h3 {
