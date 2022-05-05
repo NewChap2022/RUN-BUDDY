@@ -132,17 +132,22 @@ section {
     font-size: 16pt;
 }
 
-.intro, .steps, .contact {
+.flex-row {
+    display: flex;
+}
+
+.intro p {
     text-align: center;
 }
 
-.intro h2, .steps h2, .trainers h2, .contact h2 {
+.section-title {
     font-size: 55px;
     color:#024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
     border-bottom: 3px solid;
-    display: inline-block;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
 
 .contact h2 {
