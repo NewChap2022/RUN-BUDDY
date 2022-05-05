@@ -8,11 +8,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
-    padding: 20px 35px;
-    background-color: #39a6b2;
-}
-
 header h1 {
     font-weight:bold;
     font-size: 36px; 
@@ -69,11 +64,12 @@ section {
 }
 
 .jumbotron {
-    height: 600px;
-    background-image: url(./images/hero-bg.jpg);
+    height: 700px;
+    background-image: url(./images/flipped-hero-image.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
+    display:block;
 }
 
 .jumbotron-secondary {
@@ -83,7 +79,7 @@ section {
 .info-form {
     background-color: #fce138;
     position:absolute;
-    top: 60px;
+    top: 200px;
     right: 140px;
     border: 3px #024e76 solid;
     padding: 20px;
